@@ -20,7 +20,7 @@ public class UserController {
     public Object demo(){
         HashMap<Object, Object> map = new HashMap<>();
         HashMap<Object, Object> map2 = new HashMap<>();
-        map.put("name","liwenxiu");
+        map.put("name","liwegnxiu");
         map.put("age","12");
         map2.put("name","123");
         map2.put("age","122");
