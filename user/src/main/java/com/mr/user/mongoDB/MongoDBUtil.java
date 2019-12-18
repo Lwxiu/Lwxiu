@@ -37,10 +37,10 @@ public class MongoDBUtil {
        Query query = new Query();
 
         //要查询的 字段   值
-       Criteria criteria = Criteria.where("age").is("20");
-
-       //将写好的要查询的信息放入Query中
-       query.addCriteria(criteria);
+//       Criteria criteria = Criteria.where("age").is("20");
+//
+//       //将写好的要查询的信息放入Query中
+//       query.addCriteria(criteria);
 
        //把要查询的query 放入template中
        //第一个是要查询的字段和值,第二个是实体类,第三个是表名
