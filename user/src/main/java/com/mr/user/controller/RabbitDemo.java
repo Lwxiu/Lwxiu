@@ -13,6 +13,7 @@ public class RabbitDemo {
     @Autowired
     private RabbitMQUtils rabbitMQUtils;
 
+
     @GetMapping("/testRabbit")
     public void testRabbit(){
         rabbitMQUtils.sendMessage();

@@ -19,3 +19,14 @@ spring:
     mongodb:
       host: localhost
       port: 27017
+  freemarker:
+    cache: false
+    charset: UTF-8
+    suffix: .ftl
+    enabled: true
+    content-type: text/html
+    template-loader-path: classpath:/templates/
+  mybatis:
+    mapper-locations: classpath:com/mr/mapper/*.xml
+    type-aliases-package: com.mr.entity
+
