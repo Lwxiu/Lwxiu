@@ -15,4 +15,7 @@ spring:
     username: root
     password: root
     virtual-host: /root
-
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
